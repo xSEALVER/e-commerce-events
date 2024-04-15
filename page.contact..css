@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto;
+}
+
+
+
+nav{
+    background-color: rgb(40, 40, 40);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    
+}
+
+.logo{
+    width: 50px;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(40, 40, 40);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+    
+}
+
+.menu-button{
+    display: none;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.image-accueil{
+    position: relative;
+    width: 100%;
+
+}
+
+.img-lieux{
+    align-items: center;
+
+}
+
+.p-abs3{
+    position: absolute;
+    top: 26rem;
+    left: 30rem;
+    font-size: 4rem;
+    color: white;
+    padding: 15px;
+    border: 5px solid white;
+}
+
+
+.white-container{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: raleway;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.email{
+    text-align: center;
+    align-items: center;
+    margin-top: 13rem;
+}
+
+.email p{
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+
+.email-p{
+    font-weight: bolder;
+}
+
+.nous-trouver{
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+
+.img-contact{
+    width: 30px;
+    margin-bottom: 1rem;
+}
+
+.img-footer{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.dark-footer-container{
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.p-footer{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.h2-footer{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.white-border{
+    padding: 1px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img-gmail{
+    width: 24px;
+}
+
+.f-iframe{
+    margin-bottom: 2rem;
+    margin: auto;
+}
+
+map {
+    height: 100px;
+    width: 900%;
+}
+
+
+@media (max-width: 1000px) {
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+   
+
+    .contact-accueil-container{
+        width: 100%;
+        margin: auto;
+    }
+
+    .image-accueil{
+        width: 100%;
+    
+    }
+
+    .p-abs3{
+        position: absolute;
+        top: 10rem;
+        left: 9rem;
+        font-size: 1rem;
+        color: white;
+        padding: 15px;
+        border: 5px solid white;
+    }
+    
+
+    
+   
+
+    .white-container{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-family: raleway;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .email{
+    text-align: center;
+    align-items: center;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+.dark-footer-container{
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    
+    }
+    
+}
+
+@media (max-width: 430px) {
+    .sidebar{
+        width: 100%;
+    }
+}

@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: roboto;
+}
+
+.logo{
+    width: 50px;
+}
+
+
+nav{
+    background-color: rgb(40, 40, 40);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: black;
+    
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+    
+}
+
+
+
+.menu-button{
+    display: none;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.image-accueil{
+    width: 100%;
+}
+
+.p-abs3{
+    position: relative;
+    top: -38rem;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.p-abs4{
+    position: relative;
+    top: -35rem;
+    left: 41rem;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.p-abs4 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.text-h3{
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+    width: 900px;
+    font-weight: lighter;
+
+}
+
+
+.text-p-h3{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 4rem;
+
+}
+
+.double-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10rem;
+}
+
+.image-section2{
+    width: 500px;
+    object-fit: cover;
+}
+
+.histoire-button{
+    display: block;
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.img-text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.image-section3{
+    width: 100%;
+}
+
+.img-left{
+    width: 100%;
+}
+
+.img-right{
+    width: 100%;
+    background-color: #EBEBE0;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.img-right2{
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+.h3-maraige{
+margin: 50px;
+}
+
+
+.text-mariage{
+    width: 409px;
+    margin: 133px;
+}
+
+.lieux-presenter{
+    padding: 20p 40pxx;
+    background-color: #EBEBE0;
+    color: black;
+    height: 40px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: black;
+    margin: 55px;
+}
+
+.img-text2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.p-lieux{
+    margin: 15px;
+
+}
+
+
+
+.h1-palais{
+    font-size: 3rem;
+    margin: 115px;
+
+}
+
+.section4-button{
+    background-color: white;
+    margin: 1rem;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 35px;
+
+}
+
+.last-sect4-p{
+    margin: 200px;
+
+}
+
+.grey-container{
+    width: 100%;
+    padding-left: 2%;
+    background-color: gray;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    align-items: center;
+}
+
+.grey-cont-food{
+    margin-bottom: 1.5rem;
+}
+
+.grey-cont-equip{
+    font-size: 4rem;
+    width: 700px;
+    margin-bottom: 2rem;
+}
+
+.grey-cont-para{
+    width: 400px;
+    margin-bottom: 3rem;
+}
+
+.grey-container-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 24px;
+
+}
+
+.grey-container-images img{
+    width: 300px;
+    height: 375px;
+    scroll-snap-align: start;
+}
+
+
+.scrolling-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+  }
+  
+  .scrolling-wrapper img {
+    display: inline-block;
+    width: 400px; 
+    height: 450px;
+    margin-right: 10px; 
+    margin-bottom: 2rem;
+  }
+
+  .border-img{
+    border-radius: 3rem;
+
+  }
+
+.dark-footer-container{
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.p-footer{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.h2-footer{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.white-border{
+    padding: 1px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img-gmail{
+    width: 24px;
+}
+
+@media (max-width: 430px) {
+
+    body{
+        width: 100%;
+    }
+
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+    .image-accueil{
+        width: 100%;
+    }
+
+    .p-abs3{
+        position: absolute;
+        top: 9rem;
+        left: 4rem;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .p-abs4{
+        position: absolute;
+        top: 13rem;
+        left: 10rem;
+        color: white;
+        font-size: 25px;
+        
+    }
+
+    .text-h3{
+        text-align: center;
+        margin: auto;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2.5rem;
+        width: 100%;
+    
+    }
+
+    .text-p-h3{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 4rem;
+    
+    }
+
+    .double-img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+   
+
+    .image-section2{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .histoire-button{
+        display: block;
+        margin: auto;
+        background-color: white;
+        color: black;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+    
+    }
+
+    .img-text{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 5rem;
+        display: block;
+    
+    }
+
+    .scrolling-container {
+        overflow-x: scroll;
+        white-space: nowrap;
+        margin-bottom: 2rem;
+      }
+      
+      .scrolling-wrapper img {
+        display: inline-block;
+        width: 100%; 
+        height: 450px;
+        margin-right: 10px; 
+        margin-bottom: 2rem;
+      }
+    
+
+    .img-left{
+        width: 100%;
+    }
+
+    .img-right{ 
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        align-items: center;
+    }
+
+    
+    .image-section3{
+        width: 100%;
+    }
+    .text-mariage{
+        text-align: center;
+        width: 100%;
+        margin: 0rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        
+    }
+
+    .h3-maraige{
+        margin: 0;
+        margin-top: 1rem;
+        
+    }
+
+    .img-text2{
+        width: 100%;
+        display: block;
+    }
+
+    .p-lieux{
+        margin: 15px;
+    
+    }
+
+    .h1-palais{
+        font-size: 2rem;
+        margin: 0rem;
+    
+    }
+
+    .class-button{
+        align-items: center;
+    }
+
+    .img-right2{ 
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section4-button{
+        background-color: black;
+        margin: 1rem;
+        color: white;
+        border: 1px solid white;
+        padding: 8px;
+
+    
+    }
+
+    .last-sect4-p{
+        text-align: center;
+        margin: 0rem;
+
+    }
+
+    .grey-container{
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: gray;
+        color: black;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        align-items: center;
+    }
+
+    .grey-cont-equip{
+        font-size: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    
+    
+    .img-footer{
+        width: 100%;
+    }
+   
+
+
+ 
+
+.dark-footer-container{
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    
+    }
+
+    .h2-footer{
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+    
+}
+
+
+@media (max-width: 430px) {
+    .sidebar{
+        width: 100%;
+        
+    }
+}
