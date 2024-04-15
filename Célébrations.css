@@ -128,7 +128,7 @@ nav li:first-child {
 }
 .left1 {
   background: #000000dc;
-  width: 720px;
+  width: 100%;
   height: 611px;
   left: 720px;
   gap: 0px;
@@ -143,17 +143,17 @@ h2 {
   opacity: 0px;
   color: rgb(255, 255, 255);
   font-family: Iowan Old Style;
-  font-size: 64px;
+  font-size: 100px;
   font-weight: 400;
-  line-height: 87.38px;
+  line-height: 200px;
   text-align: center;
 }
 h3 {
   font-family: Iowan Old Style;
   font-size: 106px;
-  font-weight: 400;
-  line-height: 144.71px;
-  text-align: left;
+  font-weight: 400px;
+
+  text-align: center;
 }
 table {
   width: 100%;
@@ -171,18 +171,12 @@ table tr:last-child {
   display: flex;
 }
 .formulaire {
-  width: 675px;
+  text-align: center;
   height: 186px;
-  top: 776px;
-  left: 59px;
-  gap: 0px;
-  opacity: 0px;
-  display: flex;
   font-family: Iowan Old Style;
   font-size: 64px;
   font-weight: 400;
-  line-height: 62px;
-  text-align: left;
+  line-height: 200px;
 }
 .section2 {
   display: flex;
@@ -199,15 +193,17 @@ table tr:last-child {
 }
 .content {
   display: flex;
+  font-size: 120%;
 }
 .GALERIE {
   font-family: Iowan Old Style;
   font-size: 64px;
-  font-weight: 400;
-  line-height: 62px;
-  text-align: left;
+  font-weight: 400px;
+  line-height: 200px;
+  text-align: center;
 }
 .galerie {
+  width: 100%;
   display: flex;
 }
 .section4 {
@@ -225,10 +221,6 @@ table tr:last-child {
   font-size: 20px;
   padding: 50px;
 }
-.absu {
-  position: absolute;
-  left: 1180px;
-}
 .button {
   font-size: larger;
   text-align: center;
@@ -236,9 +228,9 @@ table tr:last-child {
 .p5 {
   font-family: Iowan Old Style;
   font-size: 91px;
-  font-weight: 400;
-  line-height: 124.24px;
-  text-align: left;
+  font-weight: 400px;
+  line-height: 200px;
+  text-align: center;
 }
 .section6 {
   display: flex;
@@ -252,37 +244,32 @@ table tr:last-child {
   text-align: left;
 }
 .box {
-  .box {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
 
-  .box :first-child {
-    align-self: center;
-  }
+.box :first-child {
+  align-self: center;
+}
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-  th,
-  td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-    font-size: large;
-  }
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  font-size: large;
+}
 
-  th {
-    background-color: hsl(0, 0%, 75%);
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+th {
+  background-color: hsl(0, 0%, 75%);
 }
 
 footer {
@@ -312,6 +299,14 @@ footer {
   line-height: 30.26px;
   text-align: center;
 }
+.t6 {
+  font-size: 3vw;
+}
+.tt6 {
+  font-size: 3vw;
+  padding: 30px;
+}
+
 @media screen and (max-width: 768px) {
   header h1 {
     color: #000000;
@@ -323,8 +318,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: flex-start;
-    align-content: flex-start;
+
     justify-content: flex-start;
   }
 
@@ -356,12 +350,71 @@ footer {
     overflow-clip-margin: content-box;
     overflow: clip;
   }
-}
 
-.t6 {
-  font-size: 3vw;
-}
-.tt6 {
-  font-size: 3vw;
-  padding: 30px;
+  .GALERIE2 {
+    margin: 0px;
+    font-family: Iowan Old Style;
+    font-size: 57px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .p5 {
+    font-family: Iowan Old Style;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 100px;
+    text-align: center;
+  }
+  h3 {
+    font-family: Iowan Old Style;
+    font-size: 50px;
+    font-weight: 400px;
+    text-align: center;
+  }
+  h2 {
+    color: rgb(255, 255, 255);
+    font-family: Iowan Old Style;
+    font-size: 65px;
+    font-weight: 400px;
+    line-height: 200px;
+    text-align: center;
+  }
+  .content {
+    display: flex;
+    font-size: 120%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+  }
+  .formulaire {
+    text-align: center;
+    height: 161px;
+    font-family: Iowan Old Style;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 200px;
+  }
+  .galerie {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .tof {
+    width: 200%;
+  }
 }
