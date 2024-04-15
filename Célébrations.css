@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+}
+
+.logo {
+  width: 50px;
+}
+
+nav {
+  background-color: rgb(40, 40, 40);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav a:hover {
+  background-color: lightgray;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: black;
+  color: white;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  backdrop-filter: blur(10px);
+}
+
+.menu-button {
+  display: none;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.image-accueil {
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  width: 100%;
+}
+.logo {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 25px;
+  height: 3px;
+  background-color: #000000;
+  margin: 5px;
+}
+
+.section1 {
+  display: flex;
+}
+.left1 {
+  background: #000000dc;
+  width: 720px;
+  height: 611px;
+  left: 720px;
+  gap: 0px;
+  opacity: 0px;
+}
+h2 {
+  width: Fixed (712px) px;
+  height: Hug (491px) px;
+  top: 114px;
+  left: 720px;
+  gap: 10px;
+  opacity: 0px;
+  color: rgb(255, 255, 255);
+  font-family: Iowan Old Style;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 87.38px;
+  text-align: center;
+}
+h3 {
+  font-family: Iowan Old Style;
+  font-size: 106px;
+  font-weight: 400;
+  line-height: 144.71px;
+  text-align: left;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr {
+  border-bottom: 1px solid black;
+}
+
+table tr:last-child {
+  border: 0;
+}
+.section7 {
+  display: flex;
+}
+.formulaire {
+  width: 675px;
+  height: 186px;
+  top: 776px;
+  left: 59px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  font-family: Iowan Old Style;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 62px;
+  text-align: left;
+}
+.section2 {
+  display: flex;
+}
+.p1 {
+  justify-content: flex-end;
+  width: 364px;
+  height: 314px;
+  top: 1225px;
+  left: 1061px;
+  padding: 250px 25px 10px 25px;
+  gap: 10px;
+  opacity: 0px;
+}
+.content {
+  display: flex;
+}
+.GALERIE {
+  font-family: Iowan Old Style;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 62px;
+  text-align: left;
+}
+.galerie {
+  display: flex;
+}
+.section4 {
+  display: flex;
+  margin: 50px 0px 50px 0px;
+}
+.GALERIE2 {
+  margin: 50px;
+  font-family: Iowan Old Style;
+  font-size: 55px;
+  font-weight: 400;
+  text-align: left;
+}
+.PARA {
+  font-size: 20px;
+  padding: 50px;
+}
+.absu {
+  position: absolute;
+  left: 1180px;
+}
+.button {
+  font-size: larger;
+  text-align: center;
+}
+.p5 {
+  font-family: Iowan Old Style;
+  font-size: 91px;
+  font-weight: 400;
+  line-height: 124.24px;
+  text-align: left;
+}
+.section6 {
+  display: flex;
+  align-items: center;
+}
+.sec6 {
+  font-family: Iowan Old Style;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 36.86px;
+  text-align: left;
+}
+.box {
+  .box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .box :first-child {
+    align-self: center;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: large;
+  }
+
+  th {
+    background-color: hsl(0, 0%, 75%);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+footer {
+  background-color: #000000;
+}
+.p10 {
+  color: white;
+  font-family: Iowan Old Style;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.77px;
+  text-align: center;
+}
+.p11 {
+  color: white;
+  font-family: Iowan Old Style;
+  font-size: 89px;
+  font-weight: 400;
+  line-height: 121.51px;
+  text-align: center;
+}
+.p13 {
+  color: white;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30.26px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  header h1 {
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 50px;
+  }
+  * {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .nav-active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    background-color: #333;
+    transition: all 0.5s ease;
+  }
+
+  .nav-active li {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  img {
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+}
+
+.t6 {
+  font-size: 3vw;
+}
+.tt6 {
+  font-size: 3vw;
+  padding: 30px;
+}
