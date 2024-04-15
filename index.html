@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+    
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+    <title>Index</title>
+
+</head>
+<body>
+   <header>
+    <div>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar() ><a href="#"><svg  xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="recette.acceuil.html">Accueil</a></li>
+                <li><a href="recette.Menu.html">Mariages</a></li>
+                <li><a href="recette.horaires.html">Lieux</a></li>
+            </ul>
+
+
+            <ul>
+                <li><a href="hideOnmobile"><img class="logo" src="https://s3-alpha-sig.figma.com/img/2c27/d3e0/0b673e7150280500be9eea5c1fc3a687?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hLn788O3GUBpgXJd2SozuvrqZHeY8kpEeIxlJNzRz9mzyw2LJ0Ik8gEjtwu75eUywZEn1PIEufHrNkwMUDWv2bNKHBiGrpqROXiEh5O1K0ZKlw2zb7VQwcjQrUpJ7Hfa2WiKQ8MzietdqVB5~rBAe7WzoTCzR8IYZ19Skem3J2BdnrETU8trrtQeiCCRgNIcI84O75mEtuW6f0TwOPLUhxTVJIu-UFXUyMEXLKsv4yGFfKsdysZcepQ3gyKnvRzTMkaZB1L4Z-9sEsTKqfUrS53pE9kBUbKAejAEf~WDXbFnUtEcIIU4Nry5P8AYb3F8ZDsWH5AQjOru94pfygrxqQ__" alt=""></a></li>
+                <li class="hideOnMobile"><a href="recette.acceuil.html">Acuueil</a></li>
+                <li class="hideOnMobile"><a href="recette.Menu.html">Mariages</a></li>
+                <li class="hideOnMobile"><a href="recette.horaires.html">Célébrations</a></li>
+                <li class="hideOnMobile"><a href="recette.contact.html">Lieux</a></li>
+                <li class="menu-button" onclick=showSidebar() ><a href="#"><svg  xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </div>
+   </header>
+
+   <section id="section1">
+    <div>
+        <img class="image-accueil" src="https://s3-alpha-sig.figma.com/img/a0a1/1e5e/e6a03d39dfb29817bc3aee40cd4e844e?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gYzxKI8OCSuGXliwpTLYDmaPLSHwFTc0ZM-3Ko6gc3DAWjr1ltwSXH8idcnFLgupbfLTFl~gempDzCajiQ0mp5dVEmkPBYb-XquVNb5YdDTcsyS3~4r2zJDJ6g~OmCq0PUGDHqNOIX28ZunG7pPiUN1pNxw-hGHvuQoLSOqrqYYmt7bu7y7UlJJx6sNIjnG-y1SFy7pzi3qr31Q47sJz1qwvT7TGefMiz8fRcrTm2Wy8av28nOUTlhSGwrd50fo4EZXMjfSpXpTiOcNRPZlSp4pEw7BWivLJLl4P-01JmmkYfisf0r5BLmUhIpTg-djCJ8gkyHZLfP3qzQ41pThCYw__" alt="">
+        <p class="p-abs3">Intemporel Cérémonie</p>
+    </div>
+
+
+
+
+
+
+
+    <div>
+        <h3 class="text-h3">BIENVENUE AU SKYVIEWRANCH</h3>
+        <p class="text-p-h3">Niché au calme au cœur des montagnes de Santa Monica dans la région viticole de Malibu, Calamigos Ranch est une destination unique en son genre pour les cérémonies intérieures et extérieures avec plus de 5 500 acres de beauté intacte.</p>
+    </div>
+   </section>
+
+   <section id="section2">
+    <div class="double-img">
+        <div>
+            <img class="image-section2" src="img-eric/fireworks-8119898_1280 1.png" alt="">
+        </div>
+        <div>
+            <img class="image-section2" src="img-eric/Roue 1.png" alt="">
+        </div>
+    </div>
+    <h3 class="text-h3">DEPUIS 1937, NOUS AVONS NOTRE PROPRE CHAPITRE UNIQUE DANS L'HISTOIRE DE SANTA BARBARA.</h3>
+    <button class="histoire-button">Notre Histoire</button>
+    <img class="image-accueil" src="img-eric/marriage-4226896_1280 1.png" alt="">
+   </section>
+
+   <section class="section3">
+    <div class="img-text">
+        <div class="img-left">
+            <div>
+                <img class="image-section3" src="img-eric/_ 1.png" alt="">
+            </div>
+        </div>
+        <div class="img-right">
+            <div>
+                <H2 class="h3-maraige">MARIAGE AU SKYVIIEW RANCH</H2>
+            </div>
+            <div>
+                <p class="text-mariage">Skyview Ranch offre des vues pittoresques, 130 acres de terrain magnifiquement paysager et est l'une des propriétés les plus époustouflantes visuellement de la région de Santa Barbara</p>
+            </div>
+            <div>
+                <p class="lieux-presenter">01 Le palais des lumieres</p>
+            </div>
+            <div>
+                <p class="lieux-presenter">02 LA CHAMBRE DE CHENE</p>
+            </div>
+            <div>
+                <p class="lieux-presenter">03 LE PAVILLON</p>
+            </div>
+            <div>
+                <p class="lieux-presenter">04 LA SALLE DU BOULEAU</p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="section4">
+    <div class="img-text2">
+        <div class="img-left">
+            <img class="image-section3" src="img-eric/_ (1) 1.png" alt="">
+        </div>
+
+        <div class="img-right2">
+            <div>
+                <p class="p-lieux">Lieux  01/08</p>
+            </div>
+            <div>
+                <h1 class="h1-palais">Le palais des lumières</h1>
+            </div>
+            <div class="class-button">
+                <button class="section4-button">Mariages</button>
+                <button class="section4-button">Célébrations</button>
+                <button class="section4-button">Évenement d'entreprise</button>
+            </div>
+            <div>
+                <p class="last-sect4-p">Le Palais des Lumières, un écrin d'élégance et d'histoire, séduit par son charme intemporel. Niché dans un décor naturel exceptionnel, ce lieu a célébré d'innombrables unions, mêlant rusticité majestueuse et atmosphère enchantée.</p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="section5">
+    <div class="grey-container">
+        <div>
+            <div class="grey-cont-food">
+                <p>NOURRITURE</p>
+            </div>
+    
+            <div class="grey-cont-equip">
+                <p>ÉQUIPE DE GAGNANTS</p>
+            </div>
+    
+            <div>
+                <p class="grey-cont-para">
+                    Chez Skyview Ranch, on transforme chaque événement en légende, des dîners de gala aux fêtes inoubliables. Mais pour ceux qui aiment surprendre, on dit oui au fast-food chic !
+    Chez nous, l'extraordinaire côtoie l'insolite !
+                </p>
+            </div>
+    
+            <div class="scrolling-container">
+                <div class="scrolling-wrapper">
+                  <img class="border-img" src="https://i.pinimg.com/474x/9d/db/7c/9ddb7c5edd50e7964c0b1bca15df0989.jpg" alt="Image 1">
+                  <img class="border-img" src="https://i.pinimg.com/474x/96/18/0f/96180fd6cf69ffe165ecdbf28449d053.jpg" alt="Image 2">
+                  <img class="border-img" src="https://i.pinimg.com/474x/0b/eb/76/0beb76d0b2b1bc66efbb5d813198afa6.jpg" alt="Image 3">
+                  <img class="border-img" src="https://i.pinimg.com/474x/55/6d/7e/556d7e62826da3c86b132e53383d6c23.jpg" alt="Image 4">
+                  <img class="border-img" src="https://i.pinimg.com/474x/52/5d/63/525d63e831643d34dccf0d30f3f7ea29.jpg" alt="Image 5">
+                  <img class="border-img" src="https://i.pinimg.com/474x/48/f2/e4/48f2e43326bcd04fbd616679f55dd065.jpg" alt="Image 6">
+                </div>
+            </div>
+
+                <div>
+                    <div class="grey-cont-equip">
+                        <p>LOCATION DE VOITURE</p>
+                    </div>
+    
+                    <div>
+                        <p class="grey-cont-para">
+                    Skyview Ranch offre une sélection riche : véhicules de luxe, limousines, carrosses de conte de fées, et plus. Location flexible, tarifs avantageux, à deux pas des studios, pour que chaque événement ou production soit équipé du véhicule parfait."
+                        </p>
+                    </div>
+    
+                        <div class="grey-container-images">
+                            <div class="scrolling-container">
+                                <div class="scrolling-wrapper">
+                                  <img class="border-img" src="https://i.pinimg.com/474x/d8/0e/ee/d80eeec7f30a1cca29937104fb479a5d.jpg" alt="Image 1">
+                                  <img class="border-img" src="https://i.pinimg.com/474x/0f/f4/59/0ff45924a0688e3a8fabcff7de1d2333.jpg" alt="Image 2">
+                                  <img class="border-img" src="https://i.pinimg.com/474x/22/fb/78/22fb7858f90a79c917a4a2efae786ce1.jpg" alt="Image 3">
+                                  <img class="border-img" src="https://i.pinimg.com/474x/7c/13/e1/7c13e1d3aaa76429faa4f5aad341c86c.jpg" alt="Image 4">
+                                  <img class="border-img" src="https://i.pinimg.com/474x/85/78/1c/85781c5edc7c5a30fb420bae24907d22.jpg" alt="Image 5">
+                                  <img class="border-img" src="https://i.pinimg.com/474x/85/0a/ca/850aca7cd77c110e99ab20862aef14cf.jpg" alt="Image 6">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+    </div>
+   </section>
+
+   <footer>
+    <div>
+        <img class="img-footer" src="img-eric/DALL·E 2024-03-30 17.06.25 - Create an original, wide-banner formatted illustrated map of a resort complex without any text, situated in a vast lush countryside setting 1.png" alt="">
+    </div>
+    <div class="dark-footer-container">
+        <div>
+            <p class="p-footer">Contactez-nous pour demander une visite</p>
+        </div>
+        <div>
+            <h2 class="h2-footer">+33 01 76 32 33 37 </h2>
+        </div>
+        <div class="white-border">
+            <div class="left-footer">
+                <img class="img-gmail" src="img-eric/Gmail_logo 1.png" alt="">
+            </div>
+            <div class="right-border">
+                <p class="info-footer">info@evenementiel.com</p>
+            </div>
+        </div>
+    </div>
+   </footer>
+    
+
+    
+</body>
+</html>
