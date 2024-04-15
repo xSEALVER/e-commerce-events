@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+}
+
+.logo {
+  width: 50px;
+}
+
+nav {
+  background-color: rgb(40, 40, 40);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav a:hover {
+  background-color: lightgray;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: black;
+  color: white;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  backdrop-filter: blur(10px);
+}
+
+.menu-button {
+  display: none;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.image-accueil {
+  width: 100%;
+}
+.nom1 {
+  font-family: Iowan Old Style;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+}
+.nom2 {
+  font-family: Iowan Old Style;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+}
+.P0 {
+  font-family: Iowan Old Style;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.PP {
+  font-family: Iowan Old Style;
+  font-size: 20px;
+  display: ruby-text;
+  text-align: center;
+}
+.P1 {
+  margin-left: 3%;
+}
+.P2 {
+  color: gray;
+  width: 3%;
+  margin-left: 3%;
+}
+.P3 {
+  margin-left: 3%;
+}
+.P4 {
+  color: gray;
+  width: 3%;
+  margin-left: 3%;
+}
+.P5 {
+  font-family: Iowan Old Style;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+}
+.P8 {
+  font-family: Iowan Old Style;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+}
+.P9 {
+  font-family: Iowan Old Style;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+}
+.P10 {
+  font-family: Iowan Old Style;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+}
+.P11 {
+  font-family: Iowan Old Style;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+}
+.P12 {
+  font-family: Iowan Old Style;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 131.06px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 30px 100px;
+}
+.logo {
+  width: 50px;
+}
+
+nav {
+  background-color: #a78963;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav a:hover {
+  background-color: lightgray;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #224d4d;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  backdrop-filter: blur(10px);
+}
+
+.menu-button {
+  display: none;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.image-accueil {
+  width: 100%;
+}
+
+.p-abs3 {
+  position: relative;
+  top: -38rem;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.p-abs4 {
+  position: relative;
+  top: -35rem;
+  left: 41rem;
+  color: white;
+  font-size: 30px;
+}
+
+.text-h3 {
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+  width: 900px;
+}
+
+.text-p-h3 {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  margin-bottom: 4rem;
+}
+
+.double-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10rem;
+}
+
+.image-section2 {
+  width: 500px;
+  object-fit: cover;
+}
+
+.histoire-button {
+  display: block;
+  margin: auto;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.img13 {
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    width: 100%;
+  }
+  .formulaire {
+    width: 100px;
+    display: flex;
+    font-family: Iowan Old Style;
+    font-size: 23px;
+  }
+  header h1 {
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 50px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .nav-active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    background-color: #333;
+    transition: all 0.5s ease;
+  }
+
+  .nav-active li {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .nom1 {
+    font-size: 50px;
+  }
+  .nom2 {
+    font-size: 50px;
+  }
+  .PP {
+    font-size: 45px;
+  }
+  img {
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+}
