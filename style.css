@@ -342,12 +342,8 @@ margin: 50px;
     width: 24px;
 }
 
-@media (max-width: 430px) {
-
-    body{
-        width: 100%;
-    }
-
+@media (max-width: 1000px) {
+  
     .hideOnMobile{
         display: none;
     }
@@ -548,7 +544,7 @@ margin: 50px;
 
  
 
-.dark-footer-container{
+    .dark-footer-container{
     background-color: rgb(40, 40, 40);
     color: white;
     text-align: center;
