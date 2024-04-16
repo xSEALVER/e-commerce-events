@@ -84,29 +84,35 @@ nav li:first-child{
 }
 
 .image-accueil{
+    position: relative;
     width: 100%;
 }
 
 .p-abs3{
-    position: relative;
-    top: -38rem;
+    position: absolute;
+    top: 26rem;
+    left: 30rem;
     text-align: center;
     color: white;
     font-size: 40px;
+    padding: 15px;
+    border: 5px solid white;
 }
 
 .p-abs4{
-    position: relative;
-    top: -35rem;
-    left: 41rem;
+    
+    text-align: center;
     color: white;
     font-size: 30px;
-    
+
 }
 
 .p-abs4 a{
     text-decoration: none;
     color: white;
+    position: absolute;
+    top: 30rem;
+    left: 30rem;
 }
 
 
@@ -253,7 +259,7 @@ margin: 50px;
 .grey-container{
     width: 100%;
     padding-left: 2%;
-    background-color: gray;
+    background-color: #F4F4F4;
     color: black;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -448,8 +454,8 @@ margin: 50px;
 
     .img-right{ 
         width: 100%;
-        background-color: black;
-        color: white;
+        background-color: #EBEBE0;
+        color: black;
         text-align: center;
         align-items: center;
     }
@@ -495,17 +501,17 @@ margin: 50px;
 
     .img-right2{ 
         width: 100%;
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
         text-align: center;
         align-items: center;
     }
 
     .section4-button{
-        background-color: black;
+        background-color: white;
         margin: 1rem;
-        color: white;
-        border: 1px solid white;
+        color: black;
+        border: 1px solid black;
         padding: 8px;
 
     
@@ -542,7 +548,8 @@ margin: 50px;
    
 
 
- 
+
+
 
     .dark-footer-container{
     background-color: rgb(40, 40, 40);
