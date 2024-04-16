@@ -94,8 +94,8 @@ nav li:first-child{
 .p-abs3{
     position: absolute;
     top: 26rem;
-    left: 30rem;
-    font-size: 4rem;
+    left: 34rem;
+    font-size: 40px;
     color: white;
     padding: 15px;
     border: 5px solid white;

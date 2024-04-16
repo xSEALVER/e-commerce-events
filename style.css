@@ -383,7 +383,7 @@ margin: 50px;
     .text-h3{
         text-align: center;
         margin: auto;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 2rem;
         margin-top: 2.5rem;
         width: 100%;
@@ -527,7 +527,7 @@ margin: 50px;
         width: 100%;
         padding-left: 2%;
         padding-right: 2%;
-        background-color: gray;
+        background-color: #F4F4F4;
         color: black;
         padding-top: 3rem;
         padding-bottom: 3rem;
@@ -549,8 +549,7 @@ margin: 50px;
 
 
 
-
-
+    
     .dark-footer-container{
     background-color: rgb(40, 40, 40);
     color: white;

@@ -78,6 +78,7 @@ nav li:first-child {
 .image-accueil {
   width: 100%;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -251,7 +252,93 @@ table tr:last-child {
   line-height: 36.86px;
   text-align: left;
 }
-.box {
+
+
+
+
+footer {
+  background-color: #000000;
+}
+.p10 {
+  color: white;
+  font-family: Iowan Old Style;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.77px;
+  text-align: center;
+}
+.p11 {
+  color: white;
+  font-family: Iowan Old Style;
+  font-size: 89px;
+  font-weight: 400;
+  line-height: 121.51px;
+  text-align: center;
+}
+.p13 {
+  color: white;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30.26px;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+
+  * {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+.hideOnMobile{
+    display: none;
+}
+
+.menu-button{
+    display: block;
+}
+
+
+  header h1 {
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 50px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .nav-active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    background-color: #333;
+    transition: all 0.5s ease;
+  }
+
+  .nav-active li {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  img {
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+
   .box {
     display: flex;
     align-items: flex-start;
@@ -282,79 +369,6 @@ table tr:last-child {
   img {
     max-width: 100%;
     height: auto;
-  }
-}
-
-footer {
-  background-color: #000000;
-}
-.p10 {
-  color: white;
-  font-family: Iowan Old Style;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32.77px;
-  text-align: center;
-}
-.p11 {
-  color: white;
-  font-family: Iowan Old Style;
-  font-size: 89px;
-  font-weight: 400;
-  line-height: 121.51px;
-  text-align: center;
-}
-.p13 {
-  color: white;
-  font-family: Inter;
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 30.26px;
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  header h1 {
-    color: #000000;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 50px;
-  }
-  * {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-content: flex-start;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .burger {
-    display: flex;
-  }
-
-  .nav-active {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 70px;
-    background-color: #333;
-    transition: all 0.5s ease;
-  }
-
-  .nav-active li {
-    text-align: center;
-    padding: 10px 0;
-  }
-
-  img {
-    width: 100%;
-    overflow-clip-margin: content-box;
-    overflow: clip;
   }
 }
 
