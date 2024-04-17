@@ -60,7 +60,6 @@ nav li:first-child{
     width: 250px;
     z-index: 999;
     background-color: black;
-    
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -68,7 +67,6 @@ nav li:first-child{
     backdrop-filter: blur(10px);
     
 }
-
 
 
 .menu-button{
@@ -572,6 +570,6 @@ margin: 50px;
 @media (max-width: 430px) {
     .sidebar{
         width: 100%;
-        
     }
 }
+
