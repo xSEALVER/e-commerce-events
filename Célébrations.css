@@ -283,6 +283,42 @@ footer {
   line-height: 30.26px;
   text-align: center;
 }
+
+.last-section{
+  margin-bottom: 2rem;
+}
+
+.dark-footer-container{
+  background-color: rgb(40, 40, 40);
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.p-footer{
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.h2-footer{
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.white-border{
+  padding: 1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.img-gmail{
+  width: 24px;
+}
 @media screen and (max-width: 1000px) {
 
   * {
@@ -371,6 +407,27 @@ footer {
     max-width: 100%;
     height: auto;
   }
+
+  .dark-footer-container{
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    
+    }
+
+    .h2-footer{
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .p-footer{
+      align-items: center;
+    }
+    
 }
 
 .t6 {

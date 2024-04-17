@@ -165,19 +165,6 @@ nav li:first-child {
   line-height: 131.06px;
   text-align: center;
 }
-footer {
-  text-align: center;
-  background-color: rgb(0, 0, 0);
-  color: #fff;
-  padding: 30px 100px;
-}
-
-
-
-
-
-
-
 
 
 .double-img {
@@ -205,6 +192,38 @@ footer {
 
 .img13 {
   width: 100px;
+}
+
+.dark-footer-container{
+  background-color: rgb(40, 40, 40);
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.p-footer{
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.h2-footer{
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.white-border{
+  padding: 1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.img-gmail{
+  width: 24px;
 }
 
 @media screen and (max-width: 1000px) {
